@@ -1,6 +1,11 @@
 h1{
     text-align: center;
     background: coral;
+    width: 105%;
+}
+p{
+    text-align: center;
+    font-size: 1.3em;
 }
 @media only screen and (min-width: 768px){
     div.contenedor-imagen{
@@ -13,6 +18,7 @@ h1{
         width: 95%;
         display: block;
         margin: 0 auto 0 auto;
+        border-radius: 5px;
     }
 }
 @media only screen and (min-width: 1024px){
@@ -26,6 +32,7 @@ h1{
         width: 95%;
         display: block;
         margin: 0 auto 0 auto;
+        border-radius: 5px;
     }
 }
 @media only screen and (max-width: 767px){
@@ -38,5 +45,6 @@ h1{
         display: block;
         margin: 0 auto 0 auto;
         margin-bottom: 1.3em;
+        border-radius: 5px;
     }
 }
